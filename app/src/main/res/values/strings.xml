@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Onda FM</string>
+
+    <!-- Navigation -->
+    <string name="nav_tuner">Sintonizador</string>
+    <string name="nav_stations">Emisoras FM</string>
+    <string name="nav_presets">Memorias</string>
+
+    <!-- Header & Band -->
+    <string name="header_subtitle">RECEPTOR FM DE ALTA PRECISIÓN · 87.5–108.0 MHz</string>
+    <string name="band_label_fm">FM</string>
+    <string name="unit_mhz">MHz</string>
+    <string name="badge_stereo">STEREO</string>
+    <string name="badge_mono">MONO</string>
+    <string name="badge_rds">RDS</string>
+    <string name="badge_live">EN VIVO</string>
+    <string name="badge_buffering">SINTONIZANDO</string>
+    <string name="badge_standby">EN ESPERA</string>
+    <string name="badge_static">PORTADORA LIBRE</string>
+
+    <!-- Tuner Readout & Controls -->
+    <string name="rds_no_carrier">Sin portadora FM en esta frecuencia · Gira el dial o pulsa SEEK</string>
+    <string name="rds_scanning">Explorando banda FM en busca de señal activa…</string>
+    <string name="rds_buffering_stream">Conectando con la transmisión FM en directo…</string>
+    <string name="rds_stream_error">Señal débil o fuera del aire temporalmente · Pulsa Reintentar o SEEK</string>
+    <string name="rds_paused">Receptor en pausa · Pulsa reproducir para escuchar la emisora</string>
+    <string name="btn_step_down">-0.1</string>
+    <string name="btn_step_up">+0.1</string>
+    <string name="btn_seek_prev">SEEK ⏮</string>
+    <string name="btn_seek_next">SEEK ⏭</string>
+    <string name="cd_step_down">Bajar 0.1 MHz</string>
+    <string name="cd_step_up">Subir 0.1 MHz</string>
+    <string name="cd_seek_prev">Buscar emisora anterior</string>
+    <string name="cd_seek_next">Buscar siguiente emisora</string>
+    <string name="cd_play_pause">Encender o pausar radio FM</string>
+    <string name="cd_toggle_favorite">Guardar o quitar de favoritos</string>
+    <string name="cd_squelch_toggle">Alternar ruido analógico entre emisoras</string>
+    <string name="cd_sleep_timer">Temporizador de apagado automático</string>
+    <string name="cd_refresh_band">Actualizar banda de emisoras FM</string>
+    <string name="cd_rotary_dial">Dial giratorio de sintonización FM</string>
+    <string name="cd_frequency_ruler">Escala horizontal de frecuencias FM de 87.5 a 108.0 MHz</string>
+    <string name="cd_hero_banner">Panel frontal del receptor Onda FM</string>
+
+    <!-- Audio / Squelch / Sleep Timer -->
+    <string name="label_analog_static">Ruido FM</string>
+    <string name="label_squelch_active">Squelch</string>
+    <string name="label_sleep_off">Apagado: No</string>
+    <string name="label_sleep_active">Apagado: %1$d min</string>
+    <string name="sleep_dialog_title">Temporizador de apagado</string>
+    <string name="sleep_option_off">Desactivado</string>
+    <string name="sleep_option_15">15 minutos</string>
+    <string name="sleep_option_30">30 minutos</string>
+    <string name="sleep_option_60">60 minutos</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Borrar</string>
+
+    <!-- Quick Presets M1-M6 -->
+    <string name="presets_strip_title">MEMORIAS RÁPIDAS (MANTÉN PULSADO PARA GUARDAR)</string>
+    <string name="preset_empty_label">Vacío</string>
+    <string name="preset_saved_toast">Guardado %1$s MHz en %2$s</string>
+    <string name="preset_assign_current">Asignar %1$s MHz actual</string>
+
+    <!-- Stations Directory Tab -->
+    <string name="stations_title">Banda FM en Vivo</string>
+    <string name="stations_subtitle">Emisoras reales asignadas al espectro 87.5 – 108.0 MHz</string>
+    <string name="search_placeholder">Buscar por nombre, frecuencia (ej. 93.9) o género…</string>
+    <string name="cd_clear_search">Limpiar búsqueda</string>
+    <string name="stations_loading">Escaneando espectro FM en directo…</string>
+    <string name="stations_empty_title">No se encontraron emisoras</string>
+    <string name="stations_empty_desc">Prueba con otro término de búsqueda o cambia la región de transmisión FM.</string>
+    <string name="stations_error_title">Sin conexión con el directorio FM</string>
+    <string name="stations_count_format">%1$d emisoras en banda</string>
+    <string name="station_tune_action">Sintonizar</string>
+    <string name="station_playing_now">Sonando</string>
+
+    <!-- Presets & Favorites Tab -->
+    <string name="memories_title">Memorias y Favoritos</string>
+    <string name="memories_hardware_section">Botones de Memoria del Receptor (M1 – M6)</string>
+    <string name="memories_hardware_hint">Toca una memoria para sintonizar al instante o asigna la frecuencia actual del dial.</string>
+    <string name="memories_favorites_section">Emisoras FM Favoritas</string>
+    <string name="memories_favorites_empty_title">Aún no tienes emisoras favoritas</string>
+    <string name="memories_favorites_empty_desc">Pulsa el icono de corazón en el sintonizador o en la lista de emisoras para guardar tus frecuencias FM preferidas.</string>
+
+    <!-- Countries / Regions -->
+    <string name="region_es">España</string>
+    <string name="region_mx">México</string>
+    <string name="region_ar">Argentina</string>
+    <string name="region_co">Colombia</string>
+    <string name="region_cl">Chile</string>
+    <string name="region_pe">Perú</string>
+    <string name="region_us">EE. UU.</string>
+    <string name="region_all">Global FM</string>
+    <string name="region_selector_label">Región FM</string>
+</resources>

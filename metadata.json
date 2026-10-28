@@ -1,0 +1,6 @@
+{
+  "name": "Onda FM",
+  "description": "Sintonizador de radio FM en vivo con dial interactivo de 87.5 a 108.0 MHz, búsqueda automática, presintonías y RDS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
